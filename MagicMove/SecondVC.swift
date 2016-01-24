@@ -48,7 +48,7 @@ class SecondVC: UIViewController {
     private func backButtonTappedHander() {
         let firstVC = UIStoryboard(name: Storyboards.Main.storyboard, bundle: nil).instantiateViewControllerWithIdentifier(String(FirstVC)) as! FirstVC
         
-        presentViewControllerMagically(self, to: firstVC, animated: true)
+        presentViewControllerCustomTrasition(firstVC, transition: FadeTransition(), animated: true)
     }
 }
 
@@ -58,11 +58,11 @@ extension SecondVC: MagicMoveable {
     }
     
     var duration: NSTimeInterval {
-        return 0.7
+        return 1.0
     }
     
     var spring: CGFloat {
-        return 0.9
+        return 1.0
     }
     
     var magicViews: [UIView] {

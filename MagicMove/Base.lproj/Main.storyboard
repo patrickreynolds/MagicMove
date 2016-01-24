@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--FirstVC-->
@@ -35,10 +36,10 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHi-YY-eV6">
-                                <rect key="frame" x="112" y="484" width="150" height="41"/>
+                                <rect key="frame" x="98" y="484" width="180" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="Eec-hh-oIL"/>
-                                    <constraint firstAttribute="width" constant="150" id="X4m-wc-QJV"/>
+                                    <constraint firstAttribute="height" constant="40" id="Eec-hh-oIL"/>
+                                    <constraint firstAttribute="width" constant="180" id="X4m-wc-QJV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
@@ -94,10 +95,10 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVP-Fc-zau">
-                                <rect key="frame" x="112" y="199" width="150" height="41"/>
+                                <rect key="frame" x="159" y="184" width="180" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="0np-wH-4fO"/>
-                                    <constraint firstAttribute="width" constant="150" id="h9Y-Ov-7wh"/>
+                                    <constraint firstAttribute="height" constant="40" id="0np-wH-4fO"/>
+                                    <constraint firstAttribute="width" constant="180" id="h9Y-Ov-7wh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
@@ -110,12 +111,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="IVP-Fc-zau" secondAttribute="trailing" constant="20" id="1dM-Di-xOl"/>
                             <constraint firstItem="6a1-xg-n57" firstAttribute="centerY" secondItem="g7z-ua-ow1" secondAttribute="centerY" id="1sA-IN-c0L"/>
-                            <constraint firstItem="IVP-Fc-zau" firstAttribute="centerX" secondItem="g7z-ua-ow1" secondAttribute="centerX" id="HKr-fb-ymh"/>
                             <constraint firstItem="cgZ-pI-poc" firstAttribute="leading" secondItem="g7z-ua-ow1" secondAttribute="leading" id="HzK-58-s48"/>
                             <constraint firstItem="6a1-xg-n57" firstAttribute="centerX" secondItem="g7z-ua-ow1" secondAttribute="centerX" id="SE0-13-HPI"/>
                             <constraint firstAttribute="trailing" secondItem="cgZ-pI-poc" secondAttribute="trailing" id="V8m-WJ-YMs"/>
-                            <constraint firstItem="IVP-Fc-zau" firstAttribute="top" secondItem="cgZ-pI-poc" secondAttribute="bottom" constant="135" id="gpE-tS-K0c"/>
+                            <constraint firstItem="IVP-Fc-zau" firstAttribute="top" secondItem="cgZ-pI-poc" secondAttribute="bottom" constant="120" id="gpE-tS-K0c"/>
                             <constraint firstItem="cgZ-pI-poc" firstAttribute="top" secondItem="g7z-ua-ow1" secondAttribute="top" id="oBb-te-ZRx"/>
                         </constraints>
                     </view>
@@ -147,9 +148,9 @@
                                 <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6KH-XR-k32">
-                                        <rect key="frame" x="97" y="0.0" width="180" height="50"/>
+                                        <rect key="frame" x="97" y="5" width="180" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Z59-cD-y25"/>
+                                            <constraint firstAttribute="height" constant="40" id="Z59-cD-y25"/>
                                             <constraint firstAttribute="width" constant="180" id="ZQt-vB-Hqn"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>

@@ -50,7 +50,7 @@ extension FirstVC: MagicMoveable {
     }
     
     var spring: CGFloat {
-        return 0.8
+        return 0.7
     }
     
     var magicViews: [UIView] {
